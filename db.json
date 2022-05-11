@@ -120,5 +120,34 @@
       "quantity": 10
     }
   ],
-  "cart-products": []
+  "cart-products": [],
+
+  "users": [
+    {
+      "id": "crew1",
+      "nickname": "호프",
+      "cartProducts": [{ "id": 17, "quantity": 2 }],
+      "order": [
+        {
+          "id": "order1",
+          "orderedAt": "20220511",
+          "amount": 53500,
+          "orderedProducts": [{ "id": 17, "quantity": 2 }]
+        }
+      ]
+    },
+    {
+      "id": "crew2",
+      "nickname": "마르코",
+      "cartProducts": [{ "id": 17, "quantity": 2 }],
+      "order": [
+        {
+          "id": "order1",
+          "orderedAt": "20220511",
+          "amount": 53500,
+          "orderedProducts": [{ "id": 17, "quantity": 2 }]
+        }
+      ]
+    }
+  ]
 }
